@@ -1,0 +1,38 @@
+/* ---------------------------------------------
+    Header > Navbar
+*/
+.header .navbar{
+    border-radius: 0!important;
+    background-color: var(--color-primary_400) !important;
+}
+.header .navbar .navbar-brand{
+    max-height: 35px;
+    display: flex;
+    align-items: center;
+}
+.header .navbar-brand .brand_title{
+    font-family: inherit;
+    font-size: 1.30rem;
+}
+.header .navbar-brand .brand_title:hover,
+.header .navbar-brand .brand_title:focus,
+.header .navbar-brand .brand_title:target{
+    color: #fff;
+} 
+.header .navbar-collapse{
+    justify-content: flex-end!important; 
+}
+.header .navbar-nav{
+    text-align: right; 
+}
+
+.header .navbar-nav .nav-link{
+    color: #e2e2e2;
+    text-align: center;
+    width: fit-content;
+}
+
+.header .navbar-nav .nav-item a:focus,
+.header .navbar-nav .nav-item a:target{
+    color: #e2e2e2;
+}

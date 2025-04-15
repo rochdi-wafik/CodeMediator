@@ -1,0 +1,14 @@
+# Do not remove or edit this file 
+RewriteEngine On
+
+# Always read from public/.  IF server is read from /root ? redirect to /public
+
+# 1. redirecting all requests to "public/index.php"
+RewriteRule ^([^\.]+)/?$ public/index.php [NC,L]
+# 2. redirect all requests that not start with "public/" to directory "public/"
+RewriteRule ^((?!public/).*)$ public/$1 [NC,L]
+
+
+
+# ----------------------------------------------------------------
+# [NC] means Not Case-sensitive

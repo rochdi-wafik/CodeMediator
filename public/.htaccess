@@ -1,0 +1,15 @@
+# Turn On RewriteEngine 
+RewriteEngine On
+
+# Redirect Trailing Slashes If Not A Folder... (New)
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Handle public directories & files: IF a real public file, read it
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirect all to index.php (New)
+RewriteRule ^ index.php [L]
+
+# Redirect all to index. (Old)
+# RewriteRule ^([^\.]+)/?$ index.php/$1 [NC,L]
