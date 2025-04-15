@@ -76,7 +76,7 @@ use Core\Classes\View;
 
 ## 📖 Full Documentation
 Explore the complete documentation to unlock all features:  
-👉 **[CodeMediator Documentation](https://github.com/CodeMediator/Documentation)**  
+👉 **[CodeMediator Documentation](https://github.com/rochdi-wafik/CodeMediator/blob/main/Docs/Readme.MD)**  
 
 ---
 
