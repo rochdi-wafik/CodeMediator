@@ -30,4 +30,4 @@ CodeMediator comes packed with cool features to help you build secure and effici
 
 For detailed instructions on how to install and use CodeMediator, check out our full documentation here:
 
-[**Full Documentation**](https://github.com/rochdi-wafik/CodeMediator/Docs/FullDoc.md)
+[**Full Documentation**](https://github.com/rochdi-wafik/CodeMediator/blob/main/Docs/FullDoc.MD)
