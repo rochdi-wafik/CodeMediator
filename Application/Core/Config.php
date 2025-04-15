@@ -143,14 +143,15 @@ if(is_config('sess-dir'))
 {
 	$path = APP.DS.get_config('sess-dir');
 	
-	foreach (scandir($path) as $file)
-	{
-		if(is_file($path.DS.$file))
-		{
-			if(filesize($path.DS.$file) == 0)
+	if(is_dir($path)){
+		foreach (scandir($path) as $file){
+			if(file_exists($path.DS.$file) && is_file($path.DS.$file))
 			{
-		        @unlink($path.DS.$file);
-		    }
+				if(filesize($path.DS.$file) == 0)
+				{
+			        unlink($path.DS.$file);
+			    }
+			}
 		}
 	}
 }
