@@ -44,7 +44,7 @@ use Core\Classes\View;
                 </ul>
                 <hr class="collapse d-block d-lg-none "/>
                 <ul class="navbar-nav navbar-list my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="https://github.com/rochdi-wafik/CodeMediator/Docs/Readme.md">Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://github.com/rochdi-wafik/CodeMediator/blob/main/Docs/Readme.MD">Documentation</a></li>
                     <li class="nav-item collapse d-md-block"><a class="nav-link"> |</a></li>
                     <li class="nav-item"><a class="nav-link active" href="https://github.com/rochdi-wafik/CodeMediator">Github</a></li>
                 </ul>
